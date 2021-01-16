@@ -5,6 +5,7 @@ Tecnologias utilizadas:
 2 - CSS3;
 3 - Bootstrap 4;
 4 - JavaScript (ES6);
+5 - Ajax
 
 
 
