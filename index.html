@@ -19,25 +19,25 @@
     </nav>
     
     <div class="container">
-        <h4 style="font-size: 23px;" class="text-center">Consumindo a API gratuita disponível em <a href=""> https://viacep.com.br</a> para pesquisar um endereço através do CEP</h1>
+        <h4 style="font-size: 23px;" class="text-center">Consumindo a API gratuita disponível em <a href="https://viacep.com.br/"> https://viacep.com.br</a> para pesquisar um endereço através do CEP</h1>
         <div class="row mt-5">
             <div class="col-md-2 mb-2">
-                <input type="text" class="form-control" id="" placeholder="Insira o cep">
+                <input type="text" class="form-control" id="cep" onblur="consultaCep()" placeholder="Insira o cep">
             </div>
             <div class="col-md-5 mb-2">
-                <input type="text" class="form-control" id="" placeholder="Bairro" readonly>
+                <input type="text" class="form-control" id="bairro" placeholder="Bairro" readonly>
             </div>
             <div class="col-md-5 mb-2">
-                <input type="text" class="form-control" id="" placeholder="UF" readonly>
+                <input type="text" class="form-control" id="uf" placeholder="UF" readonly>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4 mb-2">
-                <input type="text" class="form-control" id="" placeholder="Rua" readonly>
+                <input type="text" class="form-control" id="rua" placeholder="Rua" readonly>
             </div>
             <div class="col-md-8 mb-2">
-                <input type="text" class="form-control" id="" placeholder="Cidade" readonly>
+                <input type="text" class="form-control" id="cidade" placeholder="Cidade" readonly>
             </div>           
         </div>
 
